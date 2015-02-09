@@ -1,4 +1,4 @@
-var adjs = [
+var noundescriptors = [
 	"imaginary",
 	"digital",
 	"foreign",

@@ -1,6 +1,6 @@
 function generate() {
-	adj_index = Math.floor(Math.random() * adjs.length);
+	noundes_index = Math.floor(Math.random() * noundescriptors.length);
 	noun_index = Math.floor(Math.random() * nouns.length);
 	
-	document.getElementById("output").innerHTML = adjs[adj_index] + " " + nouns[noun_index];
+	document.getElementById("output").innerHTML = noundescriptors[noundes_index] + " " + nouns[noun_index];
 }
